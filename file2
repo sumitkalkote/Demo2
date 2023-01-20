@@ -1,0 +1,35 @@
+package Arrays;
+
+public class Char5 
+{
+	public static void main (String[]args) 
+	{
+		//step-1 Array Declaration
+		char ar2[]= {'A','B','C','D'};
+		
+					//Step-3 Usage
+			// Array size
+		System.out.println(ar2.length);  //4
+		
+			//Array length
+		System.out.println(ar2.length-1);  	//3
+		
+		
+				//i=0	0<=3	1
+						//1<=3	2
+						//2<=3	3
+						//3<=3	4
+						//4<=3	false 
+		for(char i=0;	i<=3;		i++	) 
+		{
+			System.out.println(ar2[i]);
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+}
